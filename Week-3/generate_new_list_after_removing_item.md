@@ -8,7 +8,7 @@ remove([Item | Tail], After, Item) :-
     remove(Tail, After, Item).
 
 remove([Head | Tail], [Head | After], Item) :-
-    Head \= Item,
+    Head \ = Item,
     remove(Tail, After, Item).
 
 ## Query
