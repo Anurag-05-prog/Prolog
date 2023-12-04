@@ -117,10 +117,10 @@ grandmother_of(X,Y):- female(X),
  parent_of(Z,Y).
 
 sister_of(X,Y):- female(X),
- parent_of(F, Y), parent_of(F, X),X \= Y.
+ parent_of(F, Y), parent_of(F, X),X \ = Y.
 
 brother_of(X,Y):- male(X),
- parent_of(F, Y), parent_of(F,X),X \= Y.
+ parent_of(F, Y), parent_of(F,X),X \ = Y.
 
 aunt_of(X,Y):- female(X),
  parent_of(Z,Y), sister_of(X,Z).
