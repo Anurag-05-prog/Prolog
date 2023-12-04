@@ -12,7 +12,7 @@ isPresent([H|_],E,I):-
     write('Found at '), write(I1).
 
 isPresent([H|T],E,I):-
-    H \= E,
+    H \ = E,
     I1 is I + 1,
     isPresent(T,E,I1).
 
