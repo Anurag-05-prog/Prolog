@@ -10,7 +10,7 @@ freq_l([H|T],E,F):-
     freq_l(T,E,F1).
 
 freq_l([H|T],E,F):-
-    H \= E,
+    H \ = E,
     freq_l(T,E,F).
 
 ## Query
