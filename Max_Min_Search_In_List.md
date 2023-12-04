@@ -13,6 +13,7 @@ max_l([H|T],M):-
     H < M,
     max_l(T,M).min_l([],M):- write(M).
 
+
 min_l([H|T],M):-
     H < M,
     M1 is H,
