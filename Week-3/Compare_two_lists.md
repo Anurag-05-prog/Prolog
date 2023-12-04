@@ -5,7 +5,7 @@
 compare_lists([], [], 0).
 
 compare_lists([X | Xs], [Y | Ys], Count) :-
-    X \= Y,
+    X \ = Y,
     compare_lists(Xs, Ys, RestCount),
     Count is RestCount + 1.
 
