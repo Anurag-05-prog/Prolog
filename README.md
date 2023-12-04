@@ -25,3 +25,15 @@ Logic Programming Languages: Programs are written as a set of logical assertions
 Examples: Prolog.
 
 While Prolog primarily falls under the logic programming category, it also exhibits characteristics of declarative programming, as programmers specify what should be accomplished rather than how to achieve it.
+
+Facts are the properties of an object or relationship between objects
+
+A rule in Prolog is a clause, normally with one or more variables in it.
+
+A collection of facts and rules is called a knowledge base (or a database)
+
+Prolog's pattern matching is called unification.
+
+A cut(!) inside a rule will prevent Prolog from backtracking any predicates behind the cut.
+
+The use of the anonymous variable is to fill in places, where anything is welcome
